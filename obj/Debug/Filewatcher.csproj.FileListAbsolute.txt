@@ -1,0 +1,10 @@
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Debug\Filewatcher.exe.config
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Debug\Filewatcher.exe
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Debug\Filewatcher.pdb
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.Form1.resources
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.Properties.Resources.resources
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.csproj.GenerateResource.cache
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.exe
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Debug\Filewatcher.pdb

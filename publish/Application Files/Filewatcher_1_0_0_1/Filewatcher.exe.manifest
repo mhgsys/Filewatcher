@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Filewatcher.exe" version="1.0.0.1" publicKeyToken="5972cafb8d09805e" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="startlogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Filewatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Filewatcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Filewatcher.exe" size="73184">
+      <assemblyIdentity name="Filewatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mPPkgAQwam3FeWXmESDWjkUwF5lnNtlWba+njRKsRnQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Filewatcher.exe.config" size="1035">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/2x7d1cIclwZum5Yz/rOWueTzopOVuyFvgCN539sJ4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\checkprocess.png" size="9335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HXq4DMeHSx3eyyCWAviK8A47S48td3FPBED+vYHNYMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="startlogo.ico" size="5382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YVJ66pj3XN/TYlANVcY9t2kUSUu9RZkLH3cd8maebzU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-N6S8A3H\marce" issuerKeyHash="47e5ac03540394bde780eaea4fc464d139914ab6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6GSaHkxkZ5YDz51BhMmVpY/TsNZY3K0q7LjXpq89Q/8=</DigestValue></Reference></SignedInfo><SignatureValue>WiMTElgSqXI1ofQyuIoWvOcZz59gOJ+n3Tzg3d/zqXdEG7B3wFpo8PufxqamirYx3sCSj59pVxnpmvGsrDwJK6UPO396wr1wIU7P57Wzo5qpy4tKit6P5tcVCAH4JmcPvqzLglCbI5EJarPYnkvfJkZG4ZBxxePTC65MCsMa+eY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yucPzabRKe5SjvbGpFxPbxt0q59Cq+ktkD4S7cUfYenwuBrKY12b5tDj7Z7ra5J27pq2UQy/gJvRKdCRADp/rZKqHbCc+g1mRMvLha0g35XIGkgd190qHIegbSsheL3VYRlheKIMdyJNB+OJwcrgnZ7pcJXIkGRq3zg4n9I4paE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ff433dafa6d7b8ec2aaddc58d6b0d38fa595c984419dcf039667644c1e9a64e8" Description="" Url=""><as:assemblyIdentity name="Filewatcher.exe" version="1.0.0.1" publicKeyToken="5972cafb8d09805e" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-N6S8A3H\marce</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>i/48AeMkM/B2kzB47KAqMhDEL5e2mGSXYKR2Kl5Ux+Y=</DigestValue></Reference></SignedInfo><SignatureValue>Oo2tvYjc0LIF3RLpuYK0TDLW/zcqgDb6D606+a+G/PfYMLF+B5A7MWmCwswHoPh6ryFi9zEvAC8VKmug2i/hZaKk2/IpsRSRrN6L7ZpdikTbzi6mV9BrJGuGoD2mTwxlwgtGNxr/tzTdkRfQ0vxPsQgKsJ4hIqA31GvhtIu7rTg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yucPzabRKe5SjvbGpFxPbxt0q59Cq+ktkD4S7cUfYenwuBrKY12b5tDj7Z7ra5J27pq2UQy/gJvRKdCRADp/rZKqHbCc+g1mRMvLha0g35XIGkgd190qHIegbSsheL3VYRlheKIMdyJNB+OJwcrgnZ7pcJXIkGRq3zg4n9I4paE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGFjYt5DjEpNMHccsx3cEJTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4ANgBTADgAQQAzAEgAXABtAGEAcgBjAGUwHhcNMjExMTEyMTU1NjA4WhcNMjIxMTEyMjE1NjA4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4ANgBTADgAQQAzAEgAXABtAGEAcgBjAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMrnD82m0SnuUo72xqRcT28bdKufQqvpLZA+Eu3FH2Hp8LgaymNdm+bQ4+2e62uSdu6atlEMv4Cb0SnQkQA6f62Sqh2wnPoNZkTLy4WtIN+VyBpIHdfdKhyHoG0rIXi91WEZYXiiDHciTQfjicHK4J2e6XCVyJBkat84OJ/SOKWhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhOXLWs9CdTW/BNNmXMPwgPk4Be9jaWIjNPq5QjwPXbJ47933C4uZYdxvVJ8eb618qSMwP2e9OmX1744zyI6Of79B2XUzZ4OKLGGu4/Ka/0IfZuJamxN7L7QbVVfw3eKQoohYaxzw2TeH4BbzfvPL1Jjg/qbclcc7QW4g1wNENis=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

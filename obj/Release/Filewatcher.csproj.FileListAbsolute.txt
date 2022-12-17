@@ -1,0 +1,15 @@
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Release\Filewatcher.exe.config
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Release\Filewatcher.exe
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Release\Filewatcher.pdb
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.Form1.resources
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.Properties.Resources.resources
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.csproj.GenerateResource.cache
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.exe
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.pdb
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.Form_Login.resources
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Release\Filewatcher.exe.manifest
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\bin\Release\Filewatcher.application
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.exe.manifest
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.application
+C:\Users\marce\source\repos\Filewatcher\Filewatcher\obj\Release\Filewatcher.csprojAssemblyReference.cache
