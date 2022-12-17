@@ -23,7 +23,7 @@ foreach($image in $ImagesFiles)
     }
 }
 
-HOWTO CALL MY SCRIPT?
+                    HOWTO CALL MY SCRIPT?
 Go to the settings in FileWatcher program (click the gears)
 and select the scripts location.
 
