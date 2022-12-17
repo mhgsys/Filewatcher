@@ -3,7 +3,7 @@ watches given locations for changes in files (TDMS) and invokes a script (you ca
 This Program is made by Marcel Groesbeek /Mhgsys and is running on multiple machines in a company that calibrates 
 Relative Humidity Sensors
 
-example script to invoke: (just an example)
+                example script to invoke: (just an example)
 
 #Make your own script and save it to your desired location.
 #Don't forget to make the changes in the FileWatcher Program afterwards.
